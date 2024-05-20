@@ -24,7 +24,22 @@ class AppTest {
         assertTrue(SimpleFunctions.Task5(emptyArray));  // should be true
         assertTrue(SimpleFunctions.Task5(nullArray));  // should be true
     }
-    
+
+    public void testTask4() {
+        // Test cases
+        List<Integer> list1 = Arrays.asList(3, 4, 5, 6);
+        List<Integer> list2 = Arrays.asList(5, 8, 9, 10);
+        List<Integer> expectedResult = Arrays.asList(30, 36, 40, 30);
+
+        List<Integer> result = SimpleFunctions.task4(list1, list2);
+        assertEquals(expectedResult, result);
+
+        // Test case with different length lists
+        List<Integer> list3 = Arrays.asList(1, 2, 3);
+        List<Integer> list4 = Arrays.asList(4, 5, 6, 7);
+
+        assertNull(SimpleFunctions.task4(list3, list4));
+    }
 
 
 }
