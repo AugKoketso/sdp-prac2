@@ -4,4 +4,6 @@ import java.util.*;
 
 public class SimpleFunctions {
     public SimpleFunctions() {}
+
+    
 }
