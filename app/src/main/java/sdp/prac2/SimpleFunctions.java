@@ -16,7 +16,7 @@ public class SimpleFunctions {
         return true; // All elements are in order
     }
 
-        public static List<Integer> task4(List<Integer> list1, List<Integer> list2){
+    public static List<Integer> task4(List<Integer> list1, List<Integer> list2){
         int len1 = list1.size();
         int len2 = list2.size();
         List<Integer> myList = new ArrayList<>();
