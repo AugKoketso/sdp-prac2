@@ -8,7 +8,7 @@ public class SimpleFunctions {
         int s = 0 ;
         for(int x : b){
             if (x < 0 || x >= a.length) continue;
-            else s+= a[x;]
+            else s += a[x];
         }
         return s ;
     }
