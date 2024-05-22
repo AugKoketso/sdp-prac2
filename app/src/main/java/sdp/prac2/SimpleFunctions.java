@@ -12,7 +12,16 @@ public class SimpleFunctions {
         }
         return s ;
     }
-
+    public static List<String> Task2 (List<String> input){
+        List<String> output = new ArrayList<>();
+        for (String item : input){
+            if (item.length()>1) {
+                output.add(item.substring(1));
+            }else{
+                continue
+            }//the instructions said nothing about an item that is of length 1 thus i skip it
+        }
+    }
     public static boolean Task5(int[] intList) {
         if (intList == null || intList.length <= 1) {
             return true; // A null or single element intList is considered sorted
@@ -44,5 +53,6 @@ public class SimpleFunctions {
         }
         return myList;
     }
+    
 
 }
