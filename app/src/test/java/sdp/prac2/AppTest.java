@@ -21,7 +21,7 @@ class AppTest {
     }
 
     @Test
-    public void testsFotTask3 (){
+    public void testsForTask3 (){
         String first = "((((((((((((((((((((((((((((()))))))))))))))))))))))))))))";
         String second = "(((((((((((gbadf(((((((((((((((((((((((vdf)afbjaipd)))))))))gbisjv))))))))))))))))";
 
