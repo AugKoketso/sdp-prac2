@@ -17,10 +17,8 @@ public class SimpleFunctions {
         for (String item : input){
             if (item.length()>1) {
                 output.add(item.substring(1));
-            }else{
-                continue
-            }//the instructions said nothing about an item that is of length 1 thus i skip it
-        }
+            }
+        }return output;
     }
     public static boolean Task5(int[] intList) {
         if (intList == null || intList.length <= 1) {
