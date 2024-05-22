@@ -41,5 +41,18 @@ class AppTest {
         assertNull(SimpleFunctions.task4(list3, list4));
     }
 
+    public void testTask1() {
+        int[] a = {1, 2, 3, 4, 5};
+        int[] b = {0, 2, 4}; // Indexes to consider from array a
+
+        int result = SimpleFunctions.Task1(a, b);
+
+        // Calculate the expected sum manually
+        int expectedSum = a[0] + a[2] + a[4];
+
+        // Assert that the result matches the expected sum
+        assertEquals(expectedSum, result);
+    }
+
 
 }
