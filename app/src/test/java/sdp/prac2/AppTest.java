@@ -21,6 +21,16 @@ class AppTest {
     }
 
     @Test
+    public void testsFotTask3 (){
+        String first = "((((((((((((((((((((((((((((()))))))))))))))))))))))))))))";
+        String second = "(((((((((((gbadf(((((((((((((((((((((((vdf)afbjaipd)))))))))gbisjv))))))))))))))))";
+
+        assert Task3("()")=true;
+        assert Task3("(")=false;
+        assert Task3(first)=true;
+        assert Task3(second)=false;
+    }//the neames make the test slightly heavy but make referencing easier they are used and the many number of brackets are t make sure that the program can keep track and the first is just for conrtrol 
+    
     public void testTask5() {
         // Test cases
         int[] sortedArray = {1, 2, 3, 4, 5};       // True
