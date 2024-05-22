@@ -11,7 +11,7 @@ class AppTest {
     @Test
     public void testsFotTask3 (){
         String first = "((((((((((((((((((((((((((((()))))))))))))))))))))))))))))";
-        String second = "(((((((((((((((((((((((((((((((((())))))))))))))))))))))))))";
+        String second = "(((((((((((gbadf(((((((((((((((((((((((vdf)afbjaipd)))))))))gbisjv))))))))))))))))";
 
         assert Task3("()")=true;
         assert Task3("(")=false;
