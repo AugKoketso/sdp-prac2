@@ -8,6 +8,18 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.util.*;
 
 class AppTest {
+      public void testTask2() {
+        // Arrange
+        List<String> inputList = Arrays.asList("Hello", "World", "", "Java");
+        List<String> expected = Arrays.asList("ello", "orld", "ava");
+
+        // Act
+        List<String> actual = SimpleFunctions.Task2(inputList);
+
+        // Assert
+        assertEquals(expected, actual, "The method should remove the first character from each non-empty string.");
+    }
+
     @Test
     public void testTask5() {
         // Test cases
